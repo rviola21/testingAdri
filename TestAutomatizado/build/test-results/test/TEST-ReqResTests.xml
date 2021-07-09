@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReqResTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-09T12:04:56" hostname="TPZPC112" time="7.15">
+  <properties/>
+  <testcase name="mandarParametros()" classname="ReqResTests" time="7.15"/>
+  <system-out><![CDATA[HTTP/1.1 200 OK
+X-Powered-By: Undertow/1
+Topaz-Process-Date: 2021/07/07
+Server: WildFly/10
+Topaz-Posting-ID: 1001-20210707-900000065
+Date: Fri, 09 Jul 2021 12:05:03 GMT
+Topaz-Branch-Number: 1001
+Connection: keep-alive
+Topaz-Posting-Number: 900000065
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "valor": 800.00,
+    "NumeroCuenta": 1000322,
+    "tipoConta": "CONTA_CORRENTE_PF"
+}
+{"valor":800.00,"NumeroCuenta":1000322,"tipoConta":"CONTA_CORRENTE_PF"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
